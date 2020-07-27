@@ -70,4 +70,24 @@ export default createGlobalStyle`
         content: '';
         content: none;
     }
+
+    input {
+        height: 1.8rem;
+        width: 12rem;
+    }
+
+    button {
+        background-color: blue;
+        color: white;
+        padding: 0.3rem 0.6rem;
+        margin-left: 0.5rem;
+    }
+
+    .search {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
 `;
